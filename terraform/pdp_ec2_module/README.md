@@ -45,5 +45,5 @@ private_pdp_endpoint = http://ip-10-10-0-44.eu-west-1.compute.internal/v1/data
 public_pdp_endpoint = http://ec2-52-49-242-43.eu-west-1.compute.amazonaws.com/v1/data
 ```
 
-## Fixes/Ideas
+
 
