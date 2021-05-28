@@ -20,9 +20,6 @@ module "pdp_ec2" {
 By default one t2 micro instance is  created with the one pdp docker available via port 80.
 If you want to specify different variables, browse through the variables.tf file and adjust yours accordingly.
 
-Example:
-
-
 ## Resources
 
 These resources are always created:
