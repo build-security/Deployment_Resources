@@ -1,4 +1,4 @@
-# aws-dockercomposehost
+# aws-ec2-pdphost
 
 Terraform module for creating AWS EC2 pdp instances running via docker.
 
