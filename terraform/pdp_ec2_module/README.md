@@ -7,7 +7,7 @@ Terraform module for creating AWS EC2 pdp instances running via docker.
 ```hcl
 # main.tf
 module "pdp_ec2" {
-    source = "../"
+    source = "git@github.com:build-security/Deployment_Resources.git//terraform/pdp_ec2_module"
     pdp_api_key = "your pdp api key"
     pdp_api_secret = "your pdp secret"
     subnet_id = "your subnet id"
@@ -30,6 +30,7 @@ These resources are always created:
 - A Security Group
     - A Security Group Rule for port 22/tcp
     - A Security Group Rule for each port / port range specified in variable `in_open_ports`
+    - Note by default TCP ports 80,443,22 are open to all ranges but can be limited via variable in_cidr_blocks
 
 ## Outputs
 
